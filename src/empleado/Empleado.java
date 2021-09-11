@@ -48,23 +48,24 @@ public class Empleado {
         this.cargo = cargo;
     }
 
-    public double getHorasemananes(double horaSemanales) {
-       
-        if(horaSemanales<0){
+    public double getHorasemananes() {
+         
+                
+        return horasemananes;
+    }
+
+    public void setHorasemananes(double horasemananes) {
+        
+            if(horasemananes<0){
             System.out.println("Dato inválido");
         
         
         }else{
             
-            this.horasemananes= horaSemanales;
+            this.horasemananes= horasemananes;
         
         }
         
-        
-        return horasemananes;
-    }
-
-    public void setHorasemananes(double horasemananes) {
         this.horasemananes = horasemananes;
     }
 
